@@ -1,0 +1,1789 @@
+@media (max-width: 480px) {
+  .header {
+    background-color: rgb(255, 255, 255);
+    width: 20000px;
+    height: 210px;
+    color: #000;
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .menu-bar {
+    background: #ffffff;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 0px;
+    margin-right: 65px;
+    height: 400px;
+  }
+
+  .menu-bar ul li {
+    width: 180px;
+    margin-left: 85px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 80px;
+    padding: 0;
+  }
+
+  .menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+  .active,
+  .menu-bar ul li:hover {
+    background-color: #2ba011;
+    border-radius: 3px;
+  }
+
+  .res-nav {
+    background-color: tan;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: 1290px;
+    margin-bottom: 50px;
+    margin-top: 320px;
+  }
+
+  .info-sec {
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 640px;
+  }
+
+  .info-h1 {
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .info-h4 {
+    margin-left: 42px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .info-ul {
+    margin-top: 0px;
+    line-height: normal;
+    font-size: 19px;
+    width: auto;
+  }
+
+  .info-img {
+    margin-top: 0;
+    min-width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    zoom: 50%;
+    height: 1000px;
+  }
+
+  .res-services-info {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .res-services-h1-div {
+    margin-left: 0;
+  }
+
+  .res-services-h1 {
+    margin-top: 25px;
+    margin-left: 9%;
+    font-size: 23px;
+    margin-right: 10px;
+    width: 350px;
+  }
+
+  .mowing-info {
+    margin-left: 0px;
+  }
+
+  .services-information-sec {
+    margin-left: 10px;
+    min-width: 95%;
+    height: 540px;
+    margin-bottom: 0;
+  }
+
+  .info-lawn-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 490px;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1 {
+    margin-left: 75px;
+    margin-right: 10px;
+  }
+
+  .info-h1-sec {
+    margin-left: 75px;
+    margin-right: 10px;
+  }
+
+  .info-irrigation-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .info-christmas-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1-land {
+    margin-left: 70px;
+    margin-right: 10px;
+  }
+
+  .services-header-h1 {
+    margin-left: 4.6%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-irrigation {
+    margin-left: 4.6%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-christmas {
+    margin-left: 4.6%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-leaf {
+    margin-left: 4.6%;
+    margin-right: 10px;
+  }
+  .info-ul-sec {
+    margin-right: 30px;
+    width: 90%;
+    height: 420px;
+    margin-bottom: 0;
+  }
+
+  img {
+    border-radius: 8px;
+    zoom: 45%;
+    width: 95%;
+    margin-right: 10px;
+    margin-left: 20px;
+    height: 950px;
+  }
+
+  .mowing-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 500px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+    margin-top: 0;
+  }
+
+  .landscaping-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 500px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .christmas-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 500px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .irrigation-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 500px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .leaf-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 500px;
+    margin-bottom: 80px;
+    margin-top: 0;
+    float: left;
+    background-color: tan;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header {
+    background-color: rgb(255, 255, 255);
+    width: 20000px;
+    height: 210px;
+    color: #000;
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .menu-bar {
+    background: #ffffff;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 0px;
+    margin-right: 65px;
+    height: 400px;
+  }
+
+  .menu-bar ul li {
+    width: 180px;
+    margin-left: 85px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 80px;
+    padding: 0;
+  }
+
+  .menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+  .active,
+  .menu-bar ul li:hover {
+    background-color: #2ba011;
+    border-radius: 3px;
+  }
+
+  .res-nav {
+    background-color: tan;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: 1220px;
+    margin-bottom: 0px;
+    margin-top: 300px;
+  }
+
+  .info-sec {
+    width: auto;
+    margin-right: 6%;
+    margin-left: 6%;
+    height: 500px;
+  }
+
+  .info-h1 {
+    margin-top: 0;
+    margin-left: 6%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 4.6vw;
+  }
+
+  .info-h4 {
+    margin-left: 6.2%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 3.7vw;
+  }
+
+  .info-ul {
+    margin-top: 0px;
+    line-height: normal;
+    font-size: 3.1vw;
+    width: auto;
+    margin-bottom: 0;
+    line-height: 25px;
+  }
+
+  .info-img {
+    margin-top: 0;
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 10px;
+    zoom: 58%;
+    height: 1000px;
+  }
+
+  .res-services-info {
+    width: 96.5%;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .res-services-h1-div {
+    margin-left: 0;
+  }
+
+  .res-services-h1 {
+    margin-top: 25px;
+    margin-left: 25%;
+    font-size: 3.9vw;
+    width: 450px;
+  }
+
+  .mowing-info {
+    margin-left: 0px;
+  }
+
+  .services-information-sec {
+    margin-left: 5%;
+    min-width: 95%;
+    height: 600px;
+    margin-bottom: 0;
+    margin-right: 0.5%;
+  }
+
+  .info-lawn-sec {
+    margin-left: 10%;
+    width: 80%;
+    height: 70%;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1 {
+    margin-left: 75px;
+    margin-right: 10px;
+  }
+
+  .info-h1-sec {
+    margin-left: 75px;
+    margin-right: 10px;
+  }
+
+  .info-irrigation-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .info-christmas-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1-land {
+    margin-left: 4%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1 {
+    margin-left: 4%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-christmas {
+    margin-left: 4%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-leaf {
+    margin-left: 4%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-irrigation {
+    margin-left: 4%;
+  }
+  .info-ul-sec {
+    margin-right: 100px;
+    width: 90%;
+    margin-bottom: 0;
+    font-size: 3.5vw;
+    margin-top: 20px;
+    height: 340px;
+  }
+
+  img {
+    border-radius: 8px;
+    zoom: 60%;
+    width: 80%;
+    margin-left: 10%;
+    height: 850px;
+    margin-top: 0;
+  }
+
+  .mowing-slideshow-container {
+    margin-left: 2.5%;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+    margin-top: 0;
+  }
+
+  .landscaping-slideshow-container {
+    margin-left: 2.5%;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .christmas-slideshow-container {
+    margin-left: 2.5%;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .irrigation-slideshow-container {
+    margin-left: 2.5%;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .leaf-slideshow-container {
+    margin-left: 2.5%;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 80px;
+    margin-top: 0;
+    float: left;
+    background-color: tan;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 870px) {
+  .header {
+    background-color: rgb(255, 255, 255);
+    width: 20000px;
+    height: 125px;
+    z-index: 99;
+    color: #000;
+  }
+
+  .menu-bar {
+    background: #ffffff;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    width: 100%;
+  }
+
+  .menu-bar ul li {
+    width: 220px;
+    padding: 5;
+  }
+
+  .menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 25px;
+  }
+
+  .active,
+  .menu-bar ul li:hover {
+    background-color: #2ba011;
+    border-radius: 3px;
+    height: 60px;
+  }
+
+  .res-nav {
+    background-color: tan;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: 1460px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
+
+  .info-sec {
+    width: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 650px;
+  }
+
+  .info-h1 {
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 4.4vw;
+  }
+
+  .info-h4 {
+    margin-left: 4%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 3vw;
+  }
+
+  .info-ul {
+    margin-top: 0px;
+    line-height: normal;
+    font-size: 3.8vw;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .info-img {
+    margin-top: 0;
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 10px;
+    zoom: 65%;
+  }
+
+  .res-services-info {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .res-services-h1-div {
+    margin-left: 0;
+  }
+
+  .res-services-h1 {
+    margin-top: 20px;
+    margin-left: 20%;
+    font-size: 4vw;
+    margin-right: 10px;
+  }
+
+  .mowing-info {
+    margin-left: 0px;
+  }
+
+  .services-information-sec {
+    margin-left: 20px;
+    min-width: 95%;
+    height: 740px;
+    margin-bottom: 0;
+  }
+
+  .info-lawn-sec {
+    margin-left: 10%;
+    width: 80%;
+    height: 75%;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1 {
+    margin-left: 2%;
+    margin-right: 10px;
+  }
+
+  .info-h1-sec {
+    margin-left: 75px;
+    margin-right: 10px;
+  }
+
+  .info-irrigation-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .info-christmas-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1-land {
+    margin-left: 3%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1 {
+    margin-left: 3%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-christmas {
+    margin-left: 3%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-leaf {
+    margin-left: 3%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-irrigation {
+    margin-left: 3%;
+  }
+  .info-ul-sec {
+    margin-right: 100px;
+    width: 90%;
+    margin-bottom: 0;
+    font-size: 3.5vw;
+    margin-top: 20px;
+  }
+
+  img {
+    border-radius: 8px;
+    zoom: 60%;
+    width: 80%;
+    margin-left: 10%;
+    height: fit-content;
+  }
+
+  .mowing-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+    margin-top: 0;
+  }
+
+  .landscaping-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .christmas-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .irrigation-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .leaf-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    height: 640px;
+    margin-bottom: 80px;
+    margin-top: 0;
+    float: left;
+    background-color: tan;
+  }
+}
+
+@media (min-width: 870px) and (max-width: 1023px) {
+  .header {
+    background-color: rgb(255, 255, 255);
+    width: 20000px;
+    z-index: 99;
+    color: #000;
+  }
+
+  .menu-bar {
+    background: #ffffff;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    width: 100%;
+  }
+
+  .menu-bar ul li {
+    width: 220px;
+    padding: 5;
+  }
+
+  .menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    margin-top: 25px;
+  }
+
+  .active,
+  .menu-bar ul li:hover {
+    background-color: #2ba011;
+    border-radius: 3px;
+    height: 60px;
+  }
+
+  .res-nav {
+    background-color: tan;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: 1630px;
+    margin-bottom: 50px;
+  }
+
+  .info-sec {
+    width: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 750px;
+  }
+
+  .info-h1 {
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 4vw;
+  }
+
+  .info-h4 {
+    margin-left: 4%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 3vw;
+  }
+
+  .info-ul {
+    margin-top: 0px;
+    line-height: normal;
+    font-size: 3.8vw;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .info-img {
+    margin-top: 0;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 10px;
+    zoom: 75%;
+    margin-bottom: 10px;
+  }
+
+  .res-services-info {
+    width: 98.5%;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .res-services-h1-div {
+    margin-left: 0;
+  }
+
+  .res-services-h1 {
+    margin-top: 20px;
+    margin-left: 20%;
+    font-size: 4vw;
+    margin-right: 10px;
+  }
+
+  .mowing-info {
+    margin-left: 0px;
+  }
+
+  .services-information-sec {
+    margin-left: 20px;
+    min-width: 95%;
+    margin-bottom: 0;
+  }
+
+  .info-lawn-sec {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1 {
+    margin-left: 2%;
+    margin-right: 10px;
+  }
+
+  .info-h1-sec {
+    margin-left: 75px;
+    margin-right: 10px;
+  }
+
+  .info-irrigation-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .info-christmas-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1-land {
+    margin-left: 3%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1 {
+    margin-left: 3%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-christmas {
+    margin-left: 3%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-leaf {
+    margin-left: 3%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-irrigation {
+    margin-left: 3%;
+  }
+  .info-ul-sec {
+    margin-right: 100px;
+    width: 90%;
+    margin-bottom: 0;
+    font-size: 3.5vw;
+    margin-top: 20px;
+  }
+
+  img {
+    border-radius: 8px;
+    height: 780px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .mowing-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+    margin-top: 0;
+  }
+
+  .landscaping-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .christmas-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .irrigation-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .leaf-slideshow-container {
+    margin-left: 20px;
+    width: 95%;
+    margin-bottom: 80px;
+    margin-top: 0;
+    float: left;
+    background-color: tan;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .res-nav {
+    background-color: tan;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: 1580px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
+
+  .info-sec {
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 500px;
+  }
+
+  .info-h1 {
+    margin-top: 0;
+    margin-left: 3%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 5vw;
+  }
+
+  .info-h4 {
+    margin-left: 3%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 3vw;
+  }
+
+  .info-ul {
+    margin-top: 0px;
+    line-height: normal;
+    font-size: 2.7vw;
+  }
+
+  .info-img {
+    margin-top: 0;
+    width: 98%;
+    margin-left: 15px;
+    margin-right: 20px;
+    zoom: 85%;
+    height: 1050px;
+    overflow-x: hidden;
+  }
+
+  .res-services-info {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .res-services-h1-div {
+    margin-left: 0;
+  }
+
+  .res-services-h1 {
+    margin-top: 15px;
+    margin-left: 20%;
+    font-size: 4vw;
+    width: 600px;
+  }
+
+  .mowing-info {
+    margin-left: 0px;
+  }
+
+  .services-information-sec {
+    margin-left: 10px;
+    min-width: 95%;
+    height: 740px;
+    margin-bottom: 0;
+  }
+
+  .info-lawn-sec {
+    margin-left: 5%;
+    width: auto;
+    margin-bottom: 0;
+    margin-right: 5%;
+    height: 690px;
+  }
+
+  .services-header-h1 {
+    margin-left: 250px;
+    margin-right: 10px;
+    font-size: 4.2vw;
+  }
+
+  .info-h1-sec {
+    margin-left: 75px;
+    margin-right: 10px;
+  }
+
+  .info-irrigation-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .info-christmas-sec {
+    margin-left: 10px;
+    width: 95%;
+    height: 1040px;
+    margin-bottom: 0;
+  }
+
+  .services-header-h1-land {
+    margin-left: 2%;
+    margin-right: 10px;
+    font-size: 4.2vw;
+  }
+
+  .services-header-h1-irrigation {
+    margin-left: 2%;
+    margin-right: 10px;
+    font-size: 4.2vw;
+  }
+
+  .services-header-h1 {
+    margin-left: 2%;
+    margin-right: 10px;
+  }
+
+  .services-header-h1-christmas {
+    margin-left: 2%;
+    margin-right: 10px;
+    font-size: 4.2vw;
+  }
+
+  .services-header-h1-leaf {
+    margin-left: 2%;
+    margin-right: 10px;
+    font-size: 4.2vw;
+  }
+  .info-ul-sec {
+    width: 85%;
+    height: 620px;
+    margin-bottom: 0;
+    font-size: 3.65vw;
+  }
+
+  img {
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 5%;
+    height: 890px;
+    width: 90%;
+  }
+
+  .mowing-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 940px;
+    margin-bottom: 0px;
+    float: left;
+    background-color: tan;
+    margin-top: 0;
+  }
+
+  .landscaping-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 940px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .christmas-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 940px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .irrigation-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 940px;
+    margin-bottom: 0;
+    float: left;
+    background-color: tan;
+  }
+
+  .leaf-slideshow-container {
+    margin-left: 10px;
+    width: 95%;
+    height: 990px;
+    margin-bottom: 120px;
+    margin-top: 0;
+    float: left;
+    background-color: tan;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1899px) {
+  .res-nav {
+    background-color: tan;
+    height: 940px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+
+  .res-body1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: tan;
+    border: white;
+  }
+
+  .info-sec {
+    height: 810px;
+    width: 45%;
+    float: left;
+    background-color: white;
+    margin-top: 3.5%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+  .info-h1 {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 4%;
+    margin-top: 10px;
+    font-size: 2.4vw;
+  }
+
+  .info-h4 {
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 23%;
+    font-size: 1.8vw;
+  }
+
+  .info-ul {
+    font-size: 1.9vw;
+    margin-left: 30px;
+    color: #0d7216;
+    margin-right: 30px;
+    line-height: 40px;
+  }
+
+  .info-img {
+    height: 950px;
+    width: 45%;
+    float: left;
+    background-color: white;
+    margin-top: 3.5%;
+    margin-left: 50px;
+    margin-bottom: 3.5%;
+    background-image: url(images/redcrown.JPG);
+    zoom: 85%;
+  }
+
+  .redcrown-info {
+    height: 940px;
+    width: 800px;
+    justify-content: center;
+  }
+
+  .res-services-info {
+    width: 97.8%;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    height: 100px;
+    margin-left: 1.2%;
+  }
+
+  .res-services-h1-div {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+  }
+
+  .res-services-h1 {
+    color: #000000;
+    margin-top: 0.7%;
+    margin-bottom: 10px;
+    margin-left: 32%;
+  }
+
+  .mowing-info {
+    float: left;
+  }
+
+  .services-information-sec {
+    height: 840px;
+    width: 50%;
+    float: left;
+    background-color: tan;
+    margin-left: 1.2%;
+  }
+
+  .info-h1-sec {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-right: 50px;
+    border-radius: 8px;
+  }
+
+  .info-irrigation-sec {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: white;
+    width: 700px;
+    height: 750px;
+    border-radius: 8px;
+  }
+
+  .info-christmas-sec {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: white;
+    width: 700px;
+    height: 750px;
+    border-radius: 8px;
+  }
+
+  .services-header-h1-land {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.5vw;
+  }
+
+  .info-lawn-sec {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 2%;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: white;
+    width: 90%;
+    height: 750px;
+  }
+
+  .services-header-h1 {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.5vw;
+  }
+
+  .services-header-h1-irrigation {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.5vw;
+  }
+
+  .services-header-h1-christmas {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.5vw;
+  }
+
+  .services-header-h1-leaf {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.5vw;
+  }
+  .info-ul-sec {
+    font-size: 2vw;
+    margin-left: 3%;
+    color: #0d7216;
+    background-color: white;
+    width: 90%;
+    height: 660px;
+    line-height: 60px;
+  }
+
+  .fade-img {
+    margin-top: 50px;
+    margin-right: 1.2%;
+    background-color: tan;
+    height: 750px;
+    border-radius: 8px;
+    width: 98.5%;
+  }
+
+  .mowing-slideshow-container {
+    width: 50%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 840px;
+    width: 48%;
+    background-color: tan;
+  }
+
+  .landscaping-slideshow-container {
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 840px;
+    width: 48%;
+    background-color: tan;
+  }
+
+  .christmas-slideshow-container {
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 840px;
+    width: 48%;
+    background-color: tan;
+  }
+
+  .irrigation-slideshow-container {
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 840px;
+    width: 48%;
+    background-color: tan;
+  }
+
+  .leaf-slideshow-container {
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 840px;
+    width: 48%;
+    background-color: tan;
+  }
+}
+
+@media (min-width: 2560px) {
+  .header {
+    background-color: rgb(255, 255, 255);
+    width: 20000px;
+    height: 525px;
+    z-index: 99;
+    color: #000;
+  }
+
+  .menu-bar {
+    background: #ffffff;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 300px;
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu-bar ul li {
+    width: 680px;
+    margin-top: 3%;
+    padding: 55px;
+    margin-left: 5px;
+    height: 200px;
+  }
+
+  .menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    font-size: 2vw;
+  }
+
+  .active,
+  .menu-bar ul li:hover {
+    background-color: #2ba011;
+    border-radius: 8px;
+  }
+
+  .res-nav {
+    background-color: tan;
+    height: 1260px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    margin-top: 190px;
+  }
+
+  .res-body1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: tan;
+    border: white;
+  }
+
+  .info-sec {
+    height: 1080px;
+    width: 45%;
+    float: left;
+    background-color: white;
+    margin-top: 3.5%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+  .info-h1 {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 4%;
+    margin-top: 10px;
+    font-size: 2.4vw;
+  }
+
+  .info-h4 {
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 23%;
+    font-size: 1.8vw;
+  }
+
+  .info-ul {
+    font-size: 1.9vw;
+    margin-left: 30px;
+    color: #0d7216;
+    margin-right: 30px;
+    line-height: 60px;
+    height: 880px;
+  }
+
+  .info-img {
+    height: 985px;
+    width: 48.5%;
+    float: left;
+    background-color: white;
+    margin-top: 3.5%;
+    margin-left: 4%;
+    margin-bottom: 3.5%;
+    background-image: url(images/redcrown.JPG);
+    zoom: 110%;
+  }
+
+  .redcrown-info {
+    height: 940px;
+    width: 800px;
+    justify-content: center;
+  }
+
+  .res-services-info {
+    width: 97.8%;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    height: 140px;
+    margin-left: 1.2%;
+  }
+
+  .res-services-h1-div {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 120px;
+  }
+
+  .res-services-h1 {
+    color: #000000;
+    margin-top: 1.2%;
+    margin-bottom: 10px;
+    margin-left: 32%;
+    font-size: 2.2vw;
+    font-weight: bolder;
+  }
+
+  .mowing-info {
+    float: left;
+  }
+
+  .services-information-sec {
+    height: 1140px;
+    width: 50%;
+    float: left;
+    background-color: tan;
+    margin-left: 1.2%;
+  }
+
+  .info-h1-sec {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-right: 50px;
+    border-radius: 8px;
+  }
+
+  .info-irrigation-sec {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: white;
+    width: 700px;
+    height: 750px;
+    border-radius: 8px;
+  }
+
+  .info-christmas-sec {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: white;
+    width: 700px;
+    height: 750px;
+    border-radius: 8px;
+  }
+
+  .services-header-h1-land {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.8vw;
+  }
+
+  .info-lawn-sec {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 2%;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: white;
+    width: 90%;
+    height: 1040px;
+  }
+
+  .services-header-h1 {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.8vw;
+  }
+
+  .services-header-h1-irrigation {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.8vw;
+  }
+
+  .services-header-h1-christmas {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.8vw;
+  }
+
+  .services-header-h1-leaf {
+    color: #0d7216;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 2.8vw;
+  }
+  .info-ul-sec {
+    font-size: 2.3vw;
+    margin-left: 3%;
+    color: #0d7216;
+    background-color: white;
+    width: 90%;
+    height: 920px;
+    line-height: 70px;
+  }
+
+  .fade-img {
+    margin-top: 50px;
+    margin-right: 1.2%;
+    background-color: tan;
+    height: 1050px;
+    border-radius: 8px;
+    width: 98.5%;
+  }
+
+  .mowing-slideshow-container {
+    width: 50%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 1140px;
+    width: 48%;
+    background-color: tan;
+  }
+
+  .landscaping-slideshow-container {
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 1140px;
+    width: 48%;
+    background-color: tan;
+  }
+
+  .christmas-slideshow-container {
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 1140px;
+    width: 48%;
+    background-color: tan;
+  }
+
+  .irrigation-slideshow-container {
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 1140px;
+    width: 48%;
+    background-color: tan;
+  }
+
+  .leaf-slideshow-container {
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    height: 1140px;
+    width: 48%;
+    background-color: tan;
+  }
+}

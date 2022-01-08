@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "../../OuOutreachBootcamp"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "LambertLawn"
+  }
+}
